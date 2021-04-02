@@ -8,7 +8,7 @@ import seaborn as sns
 
 if __name__ == '__main__':
 
-    data = pd.read_csv(os.getcwd()+os.sep+"datasets"+os.sep+"films-imdb"+os.sep+"IMDb movies.csv", low_memory=False)
+    data = pd.read_csv(os.getcwd()+os.sep+os.pardir+os.sep+"datasets"+os.sep+"films-imdb"+os.sep+"IMDb movies.csv", low_memory=False)
 
 
 #j1 = sns.jointplot(data=data, x='reviews_from_critics', y='reviews_from_users')
