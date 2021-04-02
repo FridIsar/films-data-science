@@ -1,5 +1,5 @@
 from modules import visumodule as vm
 
-vm.distribution("IMDb movies.csv", "metascore")
+vm.distribution("films-imdb/IMDb movies.csv", "metascore")
 
-vm.distribution("IMDb movies.csv", "year")
+vm.distribution("films-imdb/IMDb movies.csv", "year")
