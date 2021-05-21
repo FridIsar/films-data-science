@@ -1,5 +1,7 @@
-from modules import visumodule as vm
+from modules import visumodule
 
-vm.distribution("films-imdb/IMDb movies.csv", "metascore")
+vm = visumodule.Visualiser("/Users/isar/PycharmProjects/films-data-science/datasets/films-imdb/IMDb movies.csv")
 
-vm.distribution("films-imdb/IMDb movies.csv", "year")
+vm.distribution("metascore")
+
+vm.distribution("year")
