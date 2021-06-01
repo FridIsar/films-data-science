@@ -7,7 +7,7 @@ import scrapy
 
 
 class ReviewsAllocineItem(scrapy.Item):
-    title = scrapy.Field()
-    review = scrapy.Field()
-    stars = scrapy.Field()
-
+    
+    title = scrapy.Field() # Le titre du film
+    review = scrapy.Field() # Le commentaire
+    stars = scrapy.Field() # La note donnée au film par l'auteur du commentaire

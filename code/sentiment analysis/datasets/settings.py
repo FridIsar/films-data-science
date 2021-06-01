@@ -1,4 +1,4 @@
-# Scrapy settings for sentiment_analysis project
+# Scrapy settings for datasets project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -7,14 +7,14 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'sentiment_analysis'
+BOT_NAME = 'datasets'
 
-SPIDER_MODULES = ['sentiment_analysis.spiders']
-NEWSPIDER_MODULE = 'sentiment_analysis.spiders'
+SPIDER_MODULES = ['datasets.spiders']
+NEWSPIDER_MODULE = 'datasets.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'sentiment_analysis (+http://www.yourdomain.com)'
+#USER_AGENT = 'datasets (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -45,13 +45,13 @@ ROBOTSTXT_OBEY = True
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'sentiment_analysis.middlewares.SentimentAnalysisSpiderMiddleware': 543,
+#    'datasets.middlewares.DatasetsSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'sentiment_analysis.middlewares.SentimentAnalysisDownloaderMiddleware': 543,
+#    'datasets.middlewares.DatasetsDownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -63,7 +63,7 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    'sentiment_analysis.pipelines.SentimentAnalysisPipeline': 300,
+#    'datasets.pipelines.DatasetsPipeline': 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
