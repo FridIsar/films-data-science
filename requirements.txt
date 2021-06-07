@@ -1,0 +1,16 @@
+jupyter-client==6.1.12
+jupyter-core==4.7.1
+jupyter-packaging==0.7.12
+jupyter-server==1.6.0
+jupyterlab==3.0.13
+jupyterlab-pygments==0.1.2
+jupyterlab-server==2.4.0
+matplotlib==3.4.2
+notebook==6.3.0
+numpy==1.20.3
+pandas==1.2.4
+python-dateutil==2.8.1
+scikit-learn==0.24.1
+scipy==1.6.2
+seaborn==0.11.1
+easymoney==1.5.0
