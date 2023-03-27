@@ -1,5 +1,5 @@
 jupyter-client==6.1.12
-jupyter-core==4.7.1
+jupyter-core==4.11.2
 jupyter-packaging==0.7.12
 jupyter-server==1.6.0
 jupyterlab==3.0.13
